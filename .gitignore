@@ -17,3 +17,7 @@ fuel_calc/fuel_calc/obj/Debug/net6.0/fuel_calc.AssemblyInfo.cs
 *.pdb
 *.BuildWithSkipAnalyzers
 *.txt
+max_value/.vs/max_value/v17/.suo
+max_value/max_value/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+max_value/max_value/obj/Debug/net6.0/max_value.AssemblyInfo.cs
+max_value/max_value/obj/Debug/net6.0/max_value.GlobalUsings.g.cs
