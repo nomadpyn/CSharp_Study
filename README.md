@@ -7,3 +7,7 @@
 [max_value](https://github.com/nomadpyn/CSharp_Study/tree/master/max_value)
 
 Программа запрашивает у пользователя три числа и выводит на экран максимальное число.
+
+[quad_eq](https://github.com/nomadpyn/CSharp_Study/tree/master/quad_eq)
+
+Программа вычисляет корни квадратного уравнения.
