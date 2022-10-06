@@ -11,3 +11,7 @@
 [quad_eq](https://github.com/nomadpyn/CSharp_Study/tree/master/quad_eq)
 
 Программа вычисляет корни квадратного уравнения.
+
+[leap_year](https://github.com/nomadpyn/CSharp_Study/tree/master/leap_year)
+
+Программа проверяет, является ли год високосным или нет.
