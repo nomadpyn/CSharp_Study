@@ -1,14 +1,14 @@
 ﻿
-int[] A = new int[5];
+double[] A = new double[5];
 
 Console.WriteLine("Введите данные в массив");
 
 for (int i=0;i < A.Length; i++)
 {
-    A[i] = Int32.Parse(Console.ReadLine());
+    A[i] = double.Parse(Console.ReadLine());
 }
 
-int[,] B = new int[3, 4];
+double[,] B = new double[3, 4];
 
 int rows = B.GetUpperBound(0)+1;
 int colums = B.Length / rows;
@@ -18,7 +18,7 @@ for (int i=0; i < rows; i++)
     Random rnd = new Random();
     for(int j=0; j<colums; j++)
     {
-        B[i, j] = rnd.Next(1, 100);
+        B[i, j] = rnd.NextDouble()*100;
     }
 }
 
@@ -26,7 +26,7 @@ Console.WriteLine("Одномерный массив");
 
 for(int i = 0; i < A.Length; i++)
 {
-    Console.Write($"{A[i]} ");
+    Console.Write("{0:F} ", A[i]);
 }
 
 Console.WriteLine("\nДвумерный массив");
@@ -35,21 +35,21 @@ for (int i = 0; i < rows; i++)
 {
      for (int j = 0; j < colums; j++)
     {
-        Console.Write($"{B[i,j]}\t");
+        Console.Write("{0:F}\t", B[i,j]);
     }
     Console.WriteLine();
 }
 
-Console.WriteLine("Общий максимальный элемент " + getMax(A,B,rows,colums));
-Console.WriteLine("Общий минимальный элемент " + getMin(A, B, rows, colums));
-Console.WriteLine("Общая сумма всех элементов " + getSum(A, B, rows, colums));
-Console.WriteLine("Общее произведение всех элементов " + getMult(A, B, rows, colums));
-Console.WriteLine("Сумма четных элементов одномерного массива " + getSumElem(A));
-Console.WriteLine("Сумма нечетных столбцов двумерного массива " + getSumElem2(B, rows, colums));
+Console.WriteLine("Общий максимальный элемент {0:F}", getMax(A,B,rows,colums));
+Console.WriteLine("Общий минимальный элемент {0:F}", getMin(A, B, rows, colums));
+Console.WriteLine("Общая сумма всех элементов {0:F}", getSum(A, B, rows, colums));
+Console.WriteLine("Общее произведение всех элементов {0:F}", getMult(A, B, rows, colums));
+Console.WriteLine("Сумма четных элементов одномерного массива {0:F}", getSumElem(A));
+Console.WriteLine("Сумма нечетных столбцов двумерного массива {0:F}", getSumElem2(B, rows, colums));
 
-static int getMax(int [] arr1, int [,] arr2, int rows, int colums)
+static double getMax(double[] arr1, double[,] arr2, int rows, int colums)
 {
-    int max = arr2[0, 0];
+    double max = arr2[0, 0];
 
     for (int i = 0; i < rows; i++)
     {
@@ -66,9 +66,9 @@ static int getMax(int [] arr1, int [,] arr2, int rows, int colums)
     return max;
 }
 
-static int getMin(int[] arr1, int[,] arr2, int rows, int colums)
+static double getMin(double[] arr1, double[,] arr2, int rows, int colums)
 {
-    int min = arr2[0, 0];
+    double min = arr2[0, 0];
 
     for (int i = 0; i < rows; i++)
     {
@@ -85,9 +85,9 @@ static int getMin(int[] arr1, int[,] arr2, int rows, int colums)
     return min;
 }
 
-static int getSum(int[] arr1, int[,] arr2, int rows, int colums)
+static double getSum(double[] arr1, double[,] arr2, int rows, int colums)
 {
-    int sum = arr1.Sum();
+    double sum = arr1.Sum();
 
     for (int i = 0; i < rows; i++)
     {
@@ -100,9 +100,9 @@ static int getSum(int[] arr1, int[,] arr2, int rows, int colums)
     return sum;
 }
 
-static int getMult(int[] arr1, int[,] arr2, int rows, int colums)
+static double getMult(double[] arr1, double[,] arr2, int rows, int colums)
 {
-    int mult = 1;
+    double mult = 1;
 
     for (int i =0; i< arr1.Length; i++)
     {
@@ -120,9 +120,9 @@ static int getMult(int[] arr1, int[,] arr2, int rows, int colums)
     return mult;
 }
 
-static int getSumElem(int[] arr)
+static double getSumElem(double[] arr)
 {
-    int sum = 0;
+    double sum = 0;
 
     for(int i = 0; i < arr.Length; i++)
     {
@@ -133,9 +133,9 @@ static int getSumElem(int[] arr)
     return sum;
 }
 
-static int getSumElem2(int[,] arr, int rows, int colums)
+static double getSumElem2(double[,] arr, int rows, int colums)
 {
-    int sum = 0;
+    double sum = 0;
 
     for (int i = 0; i < rows; i++)
     {
