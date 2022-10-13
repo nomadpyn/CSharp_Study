@@ -32,3 +32,6 @@ leap_year/leap_year/obj/Debug/net6.0/leap_year.GlobalUsings.g.cs
 arrays/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
 arrays/obj/Debug/net6.0/arrays.AssemblyInfo.cs
 arrays/obj/Debug/net6.0/arrays.GlobalUsings.g.cs
+strings_hw/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+strings_hw/obj/Debug/net6.0/strings_hw.AssemblyInfo.cs
+strings_hw/obj/Debug/net6.0/strings_hw.GlobalUsings.g.cs
