@@ -1,7 +1,7 @@
 ﻿
 string? data = Console.ReadLine();
 
-string[] strArr = data.Split();
+string[] strArr = data.Split(". ");
 
 for(int i = 0; i < strArr.Length; i++)
 {
@@ -10,6 +10,10 @@ for(int i = 0; i < strArr.Length; i++)
     strArr[i] = temp;
 }
 
-string data_up = String.Join(" ",strArr);
+string data_up = String.Join(". ",strArr);
 
 Console.WriteLine(data_up);
+
+Console.WriteLine("Вывод данных на консоль");
+
+
