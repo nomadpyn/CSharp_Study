@@ -1,22 +1,30 @@
 # Простые программы в процессе изучения C#
 
-[fuel_calc](https://github.com/nomadpyn/CSharp_Study/tree/master/fuel_calc)
+[1.fuel_calc](https://github.com/nomadpyn/CSharp_Study/tree/master/fuel_calc)
 
 Программа запрашивает у пользователя пройденное расстояние, а также израсходованный объем топлива. Далее выводит средний расход топлива.
 
-[max_value](https://github.com/nomadpyn/CSharp_Study/tree/master/max_value)
+[2.max_value](https://github.com/nomadpyn/CSharp_Study/tree/master/max_value)
 
 Программа запрашивает у пользователя три числа и выводит на экран максимальное число.
 
-[quad_eq](https://github.com/nomadpyn/CSharp_Study/tree/master/quad_eq)
+[3.procent](https://github.com/nomadpyn/CSharp_Study/tree/master/procent)
+
+Пользователь вводит с клавиатуры два числа. Первое число — это значение, второе число процент, который необходимо посчитать. Например, мы ввели с клавиатуры 90 и 10.Требуется вывести на экран 10 процентов от 90. Результат: 9.
+
+[4.fizz_buzz](https://github.com/nomadpyn/CSharp_Study/tree/master/fizz_buzz)
+
+Пользователь вводит с клавиатуры число в диапазоне от 1 до 100. Если число кратно 3 (делится на 3 без остатка) нужно вывести слово Fizz. Если число кратно 5 нужно вывести слово Buzz. Если число кратно 3 и 5 нужно вывести Fizz Buzz. Если число не кратно не 3 и 5 нужно вывести само число. Если пользователь ввел значение не в диапазоне от 1 до 100 требуется вывести сообщение об ошибке.
+
+[5.quad_eq](https://github.com/nomadpyn/CSharp_Study/tree/master/quad_eq)
 
 Программа вычисляет корни квадратного уравнения.
 
-[leap_year](https://github.com/nomadpyn/CSharp_Study/tree/master/leap_year)
+[6.leap_year](https://github.com/nomadpyn/CSharp_Study/tree/master/leap_year)
 
 Программа проверяет, является ли год високосным или нет.
 
-[arrays](https://github.com/nomadpyn/CSharp_Study/tree/master/arrays)
+[7.arrays](https://github.com/nomadpyn/CSharp_Study/tree/master/arrays)
 
 Объявить одномерный (5 элементов) массив с именем А и двумерный массив (3 строки, 4 столбца) дробных чисел с именем В. Заполнить одномерный массив А числами, введенными с клавиатуры пользователем, а двумерный массив В случайными числами с помощью циклов. Вывести на экран значения массивов:
 * массив А в одну строку;
@@ -30,10 +38,10 @@
 * сумму четных элементов массива А;
 * сумму нечетных столбцов массива В.
 
-[strings_hw](https://github.com/nomadpyn/CSharp_Study/tree/master/strings_hw)
+[8.strings_hw](https://github.com/nomadpyn/CSharp_Study/tree/master/strings_hw)
 
 Пользователь с клавиатуры вводит некоторый текст. Приложение должно изменять регистр первой буквы каждого предложения на букву в верхнем регистре.
 
-[seven_wonders](https://github.com/nomadpyn/CSharp_Study/tree/master/seven_wonders)
+[9.seven_wonders](https://github.com/nomadpyn/CSharp_Study/tree/master/seven_wonders)
 
 Разработйте приложение "7 чудес света", где каждое чудо будет представлено отдельным классом, в отдельном файле. Создайте дополнительный класс, в котором будут объекты каждого класса. Распределите приложение по файлам проекта и с помощью простраства имен обеспечьте возможность отображение всех чудес в дополнительном классе.
