@@ -1,9 +1,10 @@
 ﻿internal class Auto
-    {
-    protected string? name;
-    protected string? color;
-    protected uint max_speed;
-    public Auto(string nameP, string colorP, uint max_speedP)
+{
+    public string? name;
+    public string? color;
+    public int max_speed;
+   
+    public Auto(string nameP, string colorP, int max_speedP)
     {
         this.name = nameP;
         this.color = colorP;
