@@ -12,6 +12,11 @@
     {
         this.Start = new Point(ax, ay);
         this.End = new Point(bx, by);
+    
+    }
+    public double Length()
+    {
+        return Math.Sqrt(Math.Pow((this.End.X - this.Start.X), 2) + Math.Pow((this.End.Y - this.Start.Y), 2));
     }
     public override string ToString()
     {
