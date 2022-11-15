@@ -1,22 +1,18 @@
-﻿    internal class Line
+﻿    internal class Line<T> where T: struct
     {
-    Point Start;
-    Point End;
+    Point<T> Start;
+    Point<T> End;
     
-        public Line(Point a, Point b)
+        public Line(Point<T> a, Point<T> b)
     {
         this.Start = a;
         this.End = b;
     }
-    public Line(int ax,int ay,int bx,int by)
+    public Line(T ax,T ay,T bx,T by)
     {
-        this.Start = new Point(ax, ay);
-        this.End = new Point(bx, by);
+        this.Start = new Point<T>(ax, ay);
+        this.End = new Point<T>(bx, by);
     
-    }
-    public double Length()
-    {
-        return Math.Sqrt(Math.Pow((this.End.X - this.Start.X), 2) + Math.Pow((this.End.Y - this.Start.Y), 2));
     }
     public override string ToString()
     {
