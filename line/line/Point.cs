@@ -1,9 +1,9 @@
-﻿    internal class Point
+﻿    internal class Point<T> where T: struct
     {
-    public int X { get; set; }
-    public int Y { get; set; }
+    public T X { get; set; }
+    public T Y { get; set; }
 
-    public Point (int x, int y)
+    public Point (T x, T y)
     {
         this.X = x;
         this.Y = y;
