@@ -65,3 +65,7 @@ point3D/.vs/point3D/v17/.suo
 point3D/point3D/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
 point3D/point3D/obj/Debug/net6.0/point3D.AssemblyInfo.cs
 point3D/point3D/obj/Debug/net6.0/point3D.GlobalUsings.g.cs
+country_dict/.vs/country_dict/v17/.suo
+country_dict/country_dict/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+country_dict/country_dict/obj/Debug/net6.0/country_dict.AssemblyInfo.cs
+country_dict/country_dict/obj/Debug/net6.0/country_dict.GlobalUsings.g.cs
